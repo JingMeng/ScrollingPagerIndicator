@@ -1,9 +1,9 @@
 package ru.tinkoff.scrollingpagerindicator;
 
 import android.database.DataSetObserver;
-import android.support.annotation.NonNull;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * @author Nikita Olifer
@@ -80,3 +80,4 @@ public class ViewPagerAttacher implements ScrollingPagerIndicator.PagerAttacher<
         pager.removeOnPageChangeListener(onPageChangeListener);
     }
 }
+

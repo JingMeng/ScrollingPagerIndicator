@@ -3,10 +3,10 @@ package ru.tinkoff.scrollingpagerindicator.demo;
 import android.content.Context;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.Display;
 import android.view.WindowManager;
 import android.widget.NumberPicker;
@@ -81,3 +81,4 @@ public class MainActivity extends AppCompatActivity {
         return screenSize.x;
     }
 }
+
